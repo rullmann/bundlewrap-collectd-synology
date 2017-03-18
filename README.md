@@ -23,9 +23,10 @@ This bundle has been tested on the following systems:
 ## Metadata
 
     'metadata': {
-        'bundle': {
-			...
-            ... # optional
+        'collectd': {
+			synology: {
+                'ip': '127.0.0.1' # required
+            },
         },
     }
 
