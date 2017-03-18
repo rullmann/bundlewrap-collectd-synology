@@ -28,3 +28,9 @@ This bundle has been tested on the following systems:
             ... # optional
         },
     }
+
+## Example Graphs
+
+![synology_load](synology_load.png)
+![synology_temperature](synology_temperature.png)
+![synology_traffic](synology_traffic.png)
