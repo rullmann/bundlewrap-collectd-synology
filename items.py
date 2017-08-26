@@ -3,6 +3,9 @@ pkg_dnf = {
         'needs': [
             "pkg_dnf:collectd",
         ],
+        'triggers': [
+            "svc_systemd:collectd:restart",
+        ],
     },
 }
 
@@ -11,7 +14,7 @@ files = {
         'source': "synology.conf",
         'owner': "root",
         'group': "root",
-        'mode': "0644",
+        'mode': "0600",
         'content_type': "mako",
         'needs': [
             "pkg_dnf:collectd-snmp",
