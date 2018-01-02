@@ -9,6 +9,7 @@ The actual [MIB files](http://dedl.synology.com/download/Document/MIBGuide/Synol
 
 * Bundles:
   * [collectd](https://github.com/rullmann/bundlewrap-collectd)
+  * [dnf](https://github.com/rullmann/bundlewrap-dnf)
 
 ## Metadata
 
