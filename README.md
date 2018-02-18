@@ -5,6 +5,10 @@ This bundle retrieves data from Synology NAS with SNMP.
 MIB files are described by Synology in the [MIB Guide](https://global.download.synology.com/download/Document/MIBGuide/Synology_DiskStation_MIB_Guide.pdf).
 The actual [MIB files](http://dedl.synology.com/download/Document/MIBGuide/Synology_MIB_File.zip) are managed by this bundle and can be found within `files/mibs`.
 
+## Maintenance notice
+
+As of February 2018 this bundle will not be mainained anymore. If you encounter any issues I cannot help.
+
 ## Requirements
 
 * Bundles:
